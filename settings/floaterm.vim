@@ -9,9 +9,7 @@ if has('win32')
 endif
 
 " Set color
-hi Floaterm guibg=Grey15
-hi FloatermBorder guifg=Orange guibg=DarkGreen
-"hi FloatermNC guibg=darkred
+hi FloatermNC guibg=darkred
 
 autocmd User FloatermOpen        " triggered after opening a new/existed floater
 
@@ -40,6 +38,8 @@ tnoremap <silent> <leader>tt <C-\><C-n>:FloatermToggle<CR>
 nnoremap <silent> <leader>tf <C-\><C-n><C-W><Left>
 tnoremap <silent> <leader>tf <C-\><C-n><C-W><Left>
 
+nnoremap <silent> <F9>    :FloatermNew<CR>
+tnoremap <silent> <F9>    <C-\><C-n>:FloatermNew<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Hotkey to run other console apps

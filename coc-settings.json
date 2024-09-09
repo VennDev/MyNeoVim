@@ -34,7 +34,6 @@
         "enable": true,
         "startupMessage": true,
         "executable.command": "jedi-language-server",
-
     },
     "languageserver": { 
         // C++

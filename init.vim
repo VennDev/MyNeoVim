@@ -124,6 +124,9 @@ call plug#begin(stdpath('config').'/plugged')
   Plug 'hrsh7th/nvim-cmp'
   Plug 'hrsh7th/cmp-nvim-lsp'
 
+" AI
+  Plug 'github/copilot.vim'
+
 " Code syntax highlight
   " Plug 'yuezk/vim-js'                           " Javascript
   " Plug 'MaxMEllon/vim-jsx-pretty'               " JSX/React
